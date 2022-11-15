@@ -28,7 +28,7 @@ That is why I made my CV/Resume accessible to the public by designing it in plai
 
 ## Mobile View
 
-![Mobile View](./Images/Derrick-IRADUKUNDA-CV-Animate.png)
+![Mobile View](./Images/Derrick-IRADUKUNDA-CV-Mobile.png)
 
 ## Tech Stack
 

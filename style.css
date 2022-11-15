@@ -53,3 +53,45 @@ a {
 	color: var(--text-color);
 	font-weight: 400;
 }
+/* layouts */
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 5rem;
+	background: #050708;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+}
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+		grid-template-columns: 1fr;
+		padding: 3rem;
+		gap: 7rem;
+	}
+	.profile_profileImg{
+		margin: auto;
+	}
+	.profile_name, .profile_title {
+		text-align: center;
+	}
+}
+.profile {
+	grid-column: 1 / -1;
+	margin-bottom: 2rem;
+}
+.group-1,
+.group-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+.group-3 {
+	text-align: center;
+	flex-direction: column;
+	grid-column: 1 / -1;
+	margin-bottom: 2rem;
+	padding: 30px;
+}

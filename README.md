@@ -22,6 +22,14 @@ After analyzing the importance of a CV/ resume it is a roadblock to not have one
 
 That is why I made my CV/Resume accessible to the public by designing it in plain HTML and CSS and hosted it on the web. Individuals may have a hard time downloading the pdf file and viewing it in mobile or a pad. The cv i designed is responsive and display well in all screen sizes available.
 
+## Desktop View
+
+![Destop View](./Images/Derrick-IRADUKUNDA-CV-Desktop.png)
+
+## Mobile View
+
+![Mobile View](./Images/Derrick-IRADUKUNDA-CV-Animate.png)
+
 ## Tech Stack
 
 **Client:** HTML, CSS.

@@ -126,7 +126,7 @@ a {
 .profile_name_lastName {
 	color: var(--primary-color);
 	font-weight: 700;
-	font-size: clamp(2.5rem, 15vw, 7rem);
+	font-size: clamp(2.5rem, 10vw, 7rem);
 	text-transform: uppercase;
 	display: block;
 }
@@ -225,6 +225,33 @@ a {
 	width: 2rem;
 }
 
+/* dInterests */
+.connect {
+    /* margin-top: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center; */
+    display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+    /* flex-wrap: wrap; */
+}
+.connect_item {
+    margin-top: 2rem;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	color: var(--text-color);
+}
+.connect_item svg {
+	width: 2rem;
+}
+
 hr {
 	grid-column: 1/-1;
 	width: 80%;
@@ -238,4 +265,7 @@ hr {
 	hr {
 		margin: 0 auto;
 	}
+    .connect {
+        gap: 1rem;
+    }
 }

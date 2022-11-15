@@ -224,19 +224,10 @@ a {
 .social_item svg {
 	width: 2rem;
 }
-
-/* dInterests */
 .connect {
-    /* margin-top: 2rem;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center; */
     display: inline-flex;
   flex-wrap: wrap;
   gap: 4rem;
-
-    /* flex-wrap: wrap; */
 }
 .connect_item {
     margin-top: 2rem;

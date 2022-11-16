@@ -7,15 +7,15 @@
 }
 :root {
 	--primary-color: #5B63B7;
-	--text-color: #727171;
+	--text-color: #D6D6D6;
 }
 html {
-	font-size: 10px;
+	font-size: 11px;
 }
 body {
 	font-family: Inter, sans-serif;
 	background-color: #0e1417;
-	color: #E3E4F3;
+	color: #ffffff;
 }
 /* common styles */
 img {
@@ -23,7 +23,7 @@ img {
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: #D6D6D6;
 }
 .description {
 	margin-top: 1rem;
@@ -44,7 +44,7 @@ a {
 }
 .item_title {
 	font-size: 1.6rem;
-	color: #E3E4F3;
+	color: #ffffff;
 	font-weight: 500;
 	margin: 0.8rem 0;
 }
@@ -157,6 +157,7 @@ a {
 	margin-left: 2rem;
 	line-height: 2;
 }
+
 
 /* Ref  */
 .ref_item {

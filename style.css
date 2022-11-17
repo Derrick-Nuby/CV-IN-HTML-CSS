@@ -168,10 +168,15 @@ a {
 	font-weight: 700;
 }
 
+.profile_name_firstName :hover {
+color: #5B63B7;
+}
+
 .title:hover {
 	color: #ffffff;
 }
 .profile_name_lastName:hover {
+
 	color: #ffffff;
 }
 

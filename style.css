@@ -168,6 +168,13 @@ a {
 	font-weight: 700;
 }
 
+.title:hover {
+	color: #ffffff;
+}
+.profile_name_lastName:hover {
+	color: #ffffff;
+}
+
 /* eduction */
 .edu_item {
 	margin-top: 2rem;
